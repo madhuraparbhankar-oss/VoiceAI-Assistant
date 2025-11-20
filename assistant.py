@@ -27,7 +27,7 @@ from google import genai
 # GEMINI API CONFIGURATION
 # =========================
 
-GEMINI_API_KEY = "add your api key"  # Your API key
+GEMINI_API_KEY = "add your gemini api key"  # Your API key
 
 try:
     # New Gemini client (no configure())
@@ -736,3 +736,4 @@ if not GEMINI_ENABLED:
 # Start Tkinter loop
 
 root.mainloop()
+
