@@ -27,7 +27,7 @@ from google import genai
 # GEMINI API CONFIGURATION
 # =========================
 
-GEMINI_API_KEY = "AIzaSyDen03K7gBMe2tcSNe6OofSV0vbRvHSr14"  # Your API key
+GEMINI_API_KEY = "add your api key"  # Your API key
 
 try:
     # New Gemini client (no configure())
@@ -734,4 +734,5 @@ if not GEMINI_ENABLED:
     log_message("⚠️ Configure Gemini API for AI features")
 
 # Start Tkinter loop
+
 root.mainloop()
